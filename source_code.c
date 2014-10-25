@@ -1,10 +1,8 @@
 #include<stdio.h>
-#include<conio.h>
 
 int main()
 {
-  clrscr();	
-  int z, q=0;
+	int z, q=0;
 	do
 	{
 		int a, i, j, count; count = 0;
@@ -130,6 +128,5 @@ int main()
 		 printf("To play again, type zero(0), else press any key.\n");
 		 scanf("%d", &z);
 	}while(z==0);
-
 	return 0;
 }
